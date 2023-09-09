@@ -1,0 +1,101 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #12c0df;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+  }
+  
+  header #logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; 
+  }
+  
+  nav {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  #text-to-speech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #arabic-text {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  #generate-audio {
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #output {
+    margin: 10px 0;
+  }
+  
+  #play-audio {
+    display: none; /* Initially hidden */
+    background-color: #12c0df;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}

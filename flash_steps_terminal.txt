@@ -1,0 +1,40 @@
+
+### flask_steps.txt
+
+invite commande "cmd"
+
+
+To deactivate the virtual environment and reactivate it to run your Flask application again, follow these steps:
+
+### Step 1: Deactivate the Virtual Environment
+
+1. If your Flask application is currently running, stop it by pressing `CTRL+C` in the terminal.
+2. Deactivate the virtual environment by typing the following command in the terminal:
+
+   ```
+   deactivate
+   ```
+
+### Step 2: Reactivate the Virtual Environment and Run the Flask Application
+
+1. Navigate to the directory where your virtual environment is located (if you have navigated away from it). You can use the `cd` command to change directories. For example:
+
+   ```
+   cd path/to/your/project/directory
+   ```
+
+2. Reactivate the virtual environment by typing the following command in the terminal:
+
+   ```
+   .\env\Scripts\activate
+
+   ```
+
+3. Once the virtual environment is activated, run your Flask application again with the following command:
+
+   ```
+   python app.py
+   ```
+
+
+

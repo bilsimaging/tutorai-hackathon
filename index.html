@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+ <!-- Frontend Created by bilsimaging - Bilel Aroua -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>تعلم بسهولة وبلهجتك: تيوتوراي</title>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <img src="LogoTutoai.png" alt="Tutorai Logo" id="logo"> 
+    <h1>مرحباً في توتوراي</h1>
+    <p>تعلم بسهولة وبلهجتك</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">من نحن</a></li>
+      <li><a href="#services">الخدمات</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="text-to-speech">
+      <h2>تحويل النص إلى كلام</h2>
+      <p>أدخل النص في الصندوق أدناه لتحويله إلى ملف صوتي</p>
+      <textarea id="arabic-text" rows="4" cols="50" placeholder="أدخل النص هنا"></textarea>
+      <button id="generate-audio">توليد ملف صوتي</button>
+      <button id="play-audio" style="display: none;">تشغيل الصوت</button>
+      <audio id="audio-player" style="display: none;"></audio>
+      <p id="output"></p>
+
+
+   </section>
+    
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>نحن منصة تقدم خدمات التعليم الشخصي باستخدام الذكاء الاصطناعي.</p>
+      </section>
+  
+      <section id="services">
+        <h2>الخدمات</h2>
+        <p>نقدم مجموعة متنوعة من خدمات التعليم لتلبية احتياجاتك.</p>
+      </section>
+  
+      <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>يمكنك التواصل معنا من خلال القنوات التالية:</p>
+        
+      </section>
+  </main>
+
+  <footer>
+    <p><a href="https://linktr.ee/bilsimaging" target="_blank">© 2023 Bilsimaging</a></p>
+
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
