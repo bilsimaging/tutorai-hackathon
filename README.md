@@ -1,4 +1,4 @@
-# Tutorai-Hackathon Project Beta
+# Tutorai-a simple prototyped for the SOUND AI Hackathon by @lablab.me
 Text-to-Ai Arabic Speech (mp3 audio file)
 
 ## Introduction
