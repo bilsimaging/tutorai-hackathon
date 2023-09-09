@@ -90,7 +90,7 @@ body {
   }
   
   #play-audio {
-    display: none; /* Initially hidden */
+    display: none; 
     background-color: #12c0df;
     color: #fff;
     border: none;
