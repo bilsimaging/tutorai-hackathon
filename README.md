@@ -1,5 +1,5 @@
 # Tutorai-Hackathon Project Beta
-Text-to-Arabic Speech (mp3 audio file)
+Text-to-Ai Arabic Speech (mp3 audio file)
 
 ## Introduction
 
